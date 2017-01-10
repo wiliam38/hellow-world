@@ -1,0 +1,94 @@
+/*
+* Venta - Landing Page
+* Version: 1.0
+* Copyright 2014
+* Created by: AgileUI
+* URL: http://agileui.com/
+* Designed and built based on Twitter Bootstrap 3. 
+*/
+
+
+/*
+**********************************************
+Responsive Styles
+**********************************************
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+.home-features h1 { font-size: 2em; }
+.home-features ul { padding: 0 5px 10px 5px; }
+.home-features h3 { font-size: 1.5em; }
+#home-section p { padding: 0 5px 5px 5px; font-size: 1.5em; }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+.navbar-nav > li > a { line-height: 20px; }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
+
+@media (min-width: 549px) and (max-width: 600px) {
+.navbar-nav > li > a { line-height: 20px; }
+.form-subscribe h4 { font-size: 2em;  }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
+
+@media (min-width: 481px) and (max-width: 548px) {
+h1.section-title { font-size: 3em; }
+h1.section-title-white { font-size: 3em; }
+h3.section-subtitle { font-size: 1.5em; }
+h3.section-subtitle-white { font-size: 1.5em; }
+.navbar-nav > li > a { line-height: 15px; }
+.home-features h1 { font-size: 3em; }
+.home-features ul { padding: 0 5px 10px 5px; }
+.home-features h3 { font-size: 1.3em; }
+#home-section p { padding: 0 5px 5px 5px; font-size: 1.8em; }
+.form-subscribe h4 { font-size: 2em;  }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+h1.section-title { font-size: 2em; }
+h1.section-title-white { font-size: 2em; }
+h3.section-subtitle { font-size: 1.5em; }
+h3.section-subtitle-white { font-size: 1.5em; }
+.navbar-nav > li > a { line-height: 15px; }
+.home-features h1 { font-size: 2.5em; }
+.home-features ul { padding: 0 5px 10px 5px; }
+.home-features h3 { font-size: 1em; }
+#home-section p { padding: 0 5px 5px 5px; font-size: 1.8em; }
+.form-subscribe h4 { font-size: 1.5em;  }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
+
+@media (min-width: 140px) and (max-width: 320px) {
+h1.section-title { font-size: 2em; }
+h1.section-title-white { font-size: 2em; }
+h3.section-subtitle { font-size: 1.5em; }
+h3.section-subtitle-white { font-size: 1.5em; }
+.navbar-nav > li > a { line-height: 25px; }
+.home-features h1 { font-size: 2em; }
+.home-features ul { padding: 0 5px 10px 5px; }
+.home-features h3 { font-size: 1em; }
+#home-section p { padding: 0 5px 5px 5px; font-size: 1em; }
+.form-subscribe h4 { font-size: 1.2em;  }
+.contact-form-box { width: 100%; }
+#contact-section .form-element-input { padding-bottom: 15px; }
+p.copyright { text-align: center; }
+.footer-copyright .list-inline { text-align: center; }
+}
